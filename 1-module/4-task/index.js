@@ -10,6 +10,3 @@ function checkSpam(str) {
   }
 }
 // необходимо сначала приводить к единому регистру, а потом искать
-// alert(checkSpam('1XbeT now')) // === true
-// alert(checkSpam('free xxxxx')) // === true
-// alert(checkSpam('innocent rabbit')) // === false
