@@ -7,6 +7,6 @@ function ucFirst(str) {
   }
 }
 
-alert(ucFirst('василиса'))
-alert(ucFirst('x'))
-alert(ucFirst(''))
+// alert(ucFirst('василиса'))
+// alert(ucFirst('x'))
+// alert(ucFirst(''))

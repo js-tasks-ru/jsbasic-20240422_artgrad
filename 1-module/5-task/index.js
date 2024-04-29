@@ -8,6 +8,6 @@ function truncate(str, maxlength) {
     }
   }
 
-alert(truncate('Вот, что мне хотелось бы сказать на эту тему:', 20)) === 'Вот, что мне хотело…';
-alert(truncate('New york Rangers', 16)) // === 'Всем привет!';
-alert(truncate('New york Rangers', 10))
+// alert(truncate('Вот, что мне хотелось бы сказать на эту тему:', 20)) === 'Вот, что мне хотело…';
+// alert(truncate('New york Rangers', 16)) // === 'Всем привет!';
+// alert(truncate('New york Rangers', 10))
