@@ -1,6 +1,5 @@
 function toggleText() {
   let button2 = document.querySelector('.toggle-text-button')
-  console.log(button2)
   let div2 = document.querySelector('#text')
 
   button2.addEventListener('click', function () {

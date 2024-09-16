@@ -9,10 +9,6 @@ function initCarousel() {
 
   let currentSlide = 0;
 
-  console.log(arrowRight.closest('.carousel'))
-  console.log(arrowLeft.closest('.carousel__arrow'))
-  console.log(arrowParentNode.closest('.carousel__arrow'))
-
   function buttonArrows() {
     arrowLeft.style.display = currentSlide === 0 ? 'none' : '';
     arrowRight.style.display = currentSlide === slideCount - 1 ? 'none' : '';
