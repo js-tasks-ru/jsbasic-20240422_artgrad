@@ -17,9 +17,9 @@ function initCarousel() {
   buttonArrows();
 
   arrowParentNode.addEventListener('click', ({ target }) => {
-    let arrow = target.closest('.carousel__arrow');
+    let arrow1 = target.closest('.carousel__arrow');
 
-    if (arrow === arrowRight) {
+    if (arrow1 === arrowRight) {
       if (currentSlide < slideCount - 1) {
         currentSlide++;
         carouselInner.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
@@ -27,7 +27,7 @@ function initCarousel() {
       }
     }
 
-    if (arrow === arrowLeft) {
+    if (arrow1 === arrowLeft) {
       if (currentSlide > 0) {
         currentSlide--;
         carouselInner.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
